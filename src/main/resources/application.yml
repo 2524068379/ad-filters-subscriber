@@ -42,6 +42,8 @@ application:
         path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt'
       - name: AdAway Default Blocklist
         path: 'https://adaway.org/hosts.txt'
+      - name: 1hosts(Lite)
+        path: 'https://o0.pages.dev/Lite/adblock.txt'
 #      - name: 'example rule' #规则名称
 #        path: 'https://example.org/rule.txt' #规则地址
 #      - 'https://example.org/rule2.txt' #旧版写法, 不推荐
