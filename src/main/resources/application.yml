@@ -44,6 +44,8 @@ application:
         path: 'https://adaway.org/hosts.txt'
       - name: 1hosts(Lite)
         path: 'https://o0.pages.dev/Lite/adblock.txt'
+      - name: awavenue
+        path: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
 #      - name: 'example rule' #规则名称
 #        path: 'https://example.org/rule.txt' #规则地址
 #      - 'https://example.org/rule2.txt' #旧版写法, 不推荐
