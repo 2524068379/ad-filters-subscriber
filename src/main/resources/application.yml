@@ -17,7 +17,7 @@ application:
 
   # 规则源配置，remote为远程规则，local为本地规则，支持多个规则源
   rule:
-
+  
     # 仅支持 http/https，不限定响应内容格式
     remote:
       - name: AdGuard 基础过滤器
@@ -46,6 +46,10 @@ application:
         path: 'https://o0.pages.dev/Lite/adblock.txt'
       - name: awavenue
         path: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
+      - name: Hosts加速
+        path: 'https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt'
+      - name: gfw加速
+        path: 'https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt'
 #      - name: 'example rule' #规则名称
 #        path: 'https://example.org/rule.txt' #规则地址
 #      - 'https://example.org/rule2.txt' #旧版写法, 不推荐
