@@ -64,7 +64,7 @@ application:
       ! Title: ${name}
       ! Last Modified: ${date}
       ! Homepage: https://github.com/2524068379/ad-filters-subscriber/
-    path: /   #规则文件输出路径，相对路径默认从 项目目录开始
+    path:  #规则文件输出路径，相对路径默认从 项目目录开始
     files:
       all.txt: #输出文件名
         - DOMAIN  #域名规则，仅完整域名
