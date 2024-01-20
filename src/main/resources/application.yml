@@ -48,8 +48,8 @@ application:
         path: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
       - name: Hosts加速
         path: 'https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt'
-#      - name: gfw加速
-#        path: 'https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt'
+      - name: gfw加速
+        path: 'https://github.com/Potterli20/file/releases/download/github-hosts/Accelerate-Hosts.txt'
 #      - name: 'example rule' #规则名称
 #        path: 'https://example.org/rule.txt' #规则地址
 #      - 'https://example.org/rule2.txt' #旧版写法, 不推荐
