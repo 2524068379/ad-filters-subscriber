@@ -1,10 +1,9 @@
 [ADFS Adblock List]
 ! Title: regex.txt
-! Last Modified: 2024-02-14 19:12:42
+! Last Modified: 2024-02-14 20:25:33
 ! Homepage: https://github.com/2524068379/ad-filters-subscriber/
 ! 👇This Part Merge from: AdGuard 中文过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||zhizhizhizhi.oss-*.aliyuncs.com^
-||adi*.cnool.net^
 ||tupian888.*.bcebos.com^
 ||ad*.on.cc^
 ||ax.*.ifeng.com^
@@ -59,16 +58,18 @@
 ||js*.abolezi.com^
 ||sam*.baby-kingdom.com^
 ||ja*.gamersky.com^
+||qpb*.sohu.com^
 ||at*.doubanio.com^
 ! 👇This Part Merge from: AdGuard 中文过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||uc*.atobo.com^
-||qpb*.sohu.com^
 ||static*.365inews.com^
 ||union*.365inews.com^
 ||ysdm*.ys137.com.cn^
+! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||gamenguide.com*adbk
+||itechpost.com*adbk
 ! 👇This Part Merge from: EasyPrivacy (https://easylist.to/easylist/easyprivacy.txt)
 ||analytics-api.dvdfab.
-||aff*.kolektiva.net^
 ||stats-*.p2pnow.ru^
 ||hn-ping*.hashnode.com^
 ||pixel.archive.
@@ -77,6 +78,9 @@
 ||servo-report.dvdfab.
 ||tracker.twenga.
 ||fb_servpub-a.akamaihd.net^
+! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||fapnado.*.php|
+Banner468x60
 ! 👇This Part Merge from: DNS 过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
@@ -151,12 +155,10 @@
 ||videoclik.
 ||poshalim.
 ||events*.cre.ma^
-||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||cdn-adn-*.rayjump.com^
 ||track.tiara.
 ||orbit*.lun.ua^
-||adx-*.op.dbankcloud.com.edgekey.net^
 ||popupclick.
 |piwik.
 ||datacollector-*.dt.hicloud.com^
@@ -312,11 +314,12 @@ analytics-*.aasaam.com
 ||quangcao-*.epicdn.me^
 ||10.10.34.^
 ||log-*.zadn.vn^
-! 👇This Part Merge from: 1hosts(Lite) (https://o0.pages.dev/Lite/adblock.txt)
-||09_19.supfree.net^
+! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+rgmechanicsgames.com*VPN.exe
 ! 👇This Part Merge from: AdRules DNS List (https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)
 ||ads*.production-public.tubi.io^
 ||ads-*-nfl.yinzcam.com^
+||adx-*.op.dbankcloud.com.edgekey.net^
 ||ads*.textra.me^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
@@ -331,6 +334,7 @@ analytics-*.aasaam.com
 ||adservice.google.*^
 ||ac*.pingguolv.com^
 ||ad.kisstvshow.*^
+||adi*.cnool.net^
 ||adcounter*.uptolike.ru^
 ||admicro*.vcmedia.vn^
 ||ads*.depositfiles.com^
@@ -344,12 +348,21 @@ analytics-*.aasaam.com
 ||ads-dmp-collect.*.karrotmarket.com^
 ||ac*.faxingchina.com^
 ||ads*.zijieapi.com^
+||aem-collector-*.kgslb.com^
+||aff*.kolektiva.net^
 ||ads.*.kugou.com^
 ||163487*.qmgmw.com^
+||adx-*.dbankedge.cn^
 ||ads*-normal-hl.zijieapi.com^
 ||ad.*.xiaomi.com^
 ||ads*-adnow.com^
 ||adcs-*.myappsget.com^
+! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||ads*.opensubtitles.org^
+@@||adobeid-*.services.adobe.com^
+@@||cdn*.porn300.com^
+! 👇This Part Merge from: 1hosts(Lite) (https://o0.pages.dev/Lite/adblock.txt)
+||09_19.supfree.net^
 ! 👇This Part Merge from: AdRules DNS List (https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)
 ||aj2*.online^
 ||cj1*.online^
@@ -359,16 +372,17 @@ analytics-*.aasaam.com
 ||d*.wanzhuang.com^
 ||bj*.9669.cn^
 ||collector-*.px-cloud.net^
+||fads*z.com^
 ||bjkedv*.xyz^
 ||display-ad-*.kgslb.com^
 ||bj1*.online^
 ||ej1*.online^
 ||collector-*.us.tvsquared.com^
 ||api.*.hismarttv.com^
+||fads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
 ||ap*.jj20.com^
-||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
 ||collector.xhamster*.*^
@@ -378,8 +392,9 @@ analytics-*.aasaam.com
 ||dj1*.online^
 ||apple.com-*.live^
 ! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||gamenguide.com*adbk
-||itechpost.com*adbk
+||iqkufk^
+||142.91.159.
+||spryptvqguhpwt^
 ! 👇This Part Merge from: AdRules DNS List (https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)
 ||liveweb*.msstatic.com^
 ||mistat.*.xiaomi.com^
@@ -389,12 +404,11 @@ analytics-*.aasaam.com
 ||n*adserv.xyz^
 ||fls-*.amazon.com^
 ||log*-misc-lq.amemv.com^
-||fads*s.com^
 ||gg*.miguvideo.com^
 ||gads*s.com^
 ||js.*2023*.xyz^
 ||log*-normal-lq.toutiaoapi.com^
-||fads*z.com^
+||opnked*.xyz^
 ||ifengad.*.ifeng.com^
 ||n*adserv.com^
 ||firebaselogging-*.googleapis.com^
@@ -403,10 +417,9 @@ analytics-*.aasaam.com
 ||mads*z.com^
 ||gtlpa*.com^
 ! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||fapnado.*.php|
-Banner468x60
-! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-rgmechanicsgames.com*VPN.exe
+||util-*.simply-hentai.com^
+||centent.streamp1ay.
+||cintent.streanplay.
 ! 👇This Part Merge from: AdRules DNS List (https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)
 ||pangolin-sdk-toutiao*.com^
 ||ping*.qq.com^
@@ -419,9 +432,7 @@ rgmechanicsgames.com*VPN.exe
 ||sd.yhzzzs*.com^
 ||v*.denakop.com^
 ||w*.*skwai.com^
-||opnked*.xyz^
 ||promo-*.vercel.app^
-||util-*.simply-hentai.com^
 ||tblog-*.kgslb.com^
 ||toujing*.top^
 ||p*-ad-sign.byteimg.com^
@@ -429,10 +440,6 @@ rgmechanicsgames.com*VPN.exe
 ||popadex-*.us-east-1.elb.amazonaws.com^
 ||tracker*.qcloud.com^
 ||sads*z.com^
-! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||ads*.opensubtitles.org^
-@@||adobeid-*.services.adobe.com^
-@@||cdn*.porn300.com^
 ! 👇This Part Merge from: AdRules DNS List (https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)
 ||widgets.*.webengage.com^
 ||zazgiyoh*.world^
@@ -447,10 +454,3 @@ rgmechanicsgames.com*VPN.exe
 ||www.xxmh*.com^
 ||zahrvfbd*.xyz^
 ||zbc6hy*.live^
-! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||iqkufk^
-||142.91.159.
-||spryptvqguhpwt^
-! 👇This Part Merge from: AdGuard 基础过滤器 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||centent.streamp1ay.
-||cintent.streanplay.
