@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: hosts.txt
-! Last Modified: 2024-06-02 09:11:13
+! Last Modified: 2024-06-02 10:32:25
 ! Homepage: https://github.com/2524068379/ad-filters-subscriber/
 ! 👇This Part Merge from: ad-wars(大圣净化) (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 127.0.0.1 c.sayhi.360.cn
